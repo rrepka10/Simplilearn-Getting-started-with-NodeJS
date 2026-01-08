@@ -1,12 +1,15 @@
-lms.simplilearn.com offers a NodeJS course called "Getting-started-with-NodeJS".  
+# Getting-started-with-NodeJS
+ms.simplilearn.com offers a NodeJS course called "Getting-started-with-NodeJS".  
+
 This repo contains the sample code from the class with updated for the latest version
 of NodeJS Mongose.  This repo also includes instructions on how to setup each
 module.  
 There are 5 sections:
-express 
+```
+express
 rest
 jwt
 mysql
 mongodb
-
+```
 
