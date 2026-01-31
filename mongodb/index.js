@@ -4,6 +4,9 @@
 // Sample express code from lms.simplilearn.com Getting-started-with-NodeJS
 // https://lms.simplilearn.com/courses/4236/Getting-started-with-NodeJS/syllabus
 
+// Log file: Windows: C:\Program Files\MongoDB\Server\version_number\log
+// Server URI:  mongodb://localhost:27017/StudentDB
+
 // npm init - first time only
 // npm install --save express
 // npm install --save path
