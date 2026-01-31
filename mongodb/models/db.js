@@ -1,6 +1,22 @@
 // data base instructions
 const mongoose = require('mongoose');
 
+// Enable mongoose console logs 
+//mongoose.set('debug', true); // prints model + operation + args
+
+mongoose.set('debug', function (collectionName, method, query, doc, options) {
+  //const ts = new Date().toISOString();
+  
+  //console.log(`[${ts}] Mongoose ${collectionName}.${method}`, {
+    console.log(`Mongoose ${collectionName}.${method}`, {
+	method,
+    query,
+    doc,
+    options
+  });
+});
+
+
 // Source - https://stackoverflow.com/a
 // Posted by Aqeel
 // Retrieved 2026-01-07, License - CC BY-SA 4.0
