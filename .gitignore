@@ -1,0 +1,18 @@
+# Ignore the node files
+express/node_modules/
+jwt/node_modules/
+mongodb/node_modules/
+mysql/node_modules/
+rest/node_modules/
+
+express/package-lock.json
+jwt/package-lock.json
+mongodb/package-lock.json
+mysql/package-lock.json
+rest/package-lock.json
+
+
+node_modules/
+.DS_Store
+Thumbs.db
+mongodb/.env
